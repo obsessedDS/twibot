@@ -5,7 +5,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 tweetIt();
-setInterval(tweetIt, 1000*10);
+setInterval(tweetIt, 1000*20);
 
 function tweetIt(){
 	var r = Math.floor(Math.random()*100);
